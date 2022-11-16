@@ -1,0 +1,74 @@
+body{
+  background-image: url("sfondo.jpg");
+  background-size: cover;
+}
+
+.contenitore_big{
+  background-color: rgba(0,0,0,0.5);
+  width: 1000px;
+  height: 95%;
+  margin: auto;
+  border-radius: 2%;
+}
+
+.contenitore_small{
+  width: 800px;
+  height:800px;
+  margin: auto;
+}
+
+.center{
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 20%;
+}
+
+h1{
+  color: rgba(0,221,0,255);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.barra{
+  width: 800px;
+  height: 40px;
+  background-color: rgba(0,221,0,255);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+section, h2, p{
+  color: white;
+  font-family: sans-serif;
+  margin: 3px;
+  padding: 0px;
+}
+
+h2{
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.media{
+  background-color: rgba(245,180,83,255);
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.carica{
+  background-color: rgba(30,195,30,255);
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.scarica{
+  background-color: rgba(190,65,65,255);
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
